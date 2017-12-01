@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		877673FA1FD1CA2700393A1B /* CyclingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877673F91FD1CA2700393A1B /* CyclingTableViewCell.swift */; };
+		877673FC1FD1CB9F00393A1B /* CyclingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877673FB1FD1CB9F00393A1B /* CyclingTableViewController.swift */; };
+		877673FE1FD1CC1B00393A1B /* CyclingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877673FD1FD1CC1B00393A1B /* CyclingActivity.swift */; };
+		877674001FD1CD1200393A1B /* Randoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877673FF1FD1CD1200393A1B /* Randoms.swift */; };
+		877674021FD1E4CC00393A1B /* CyclingFavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877674011FD1E4CC00393A1B /* CyclingFavoriteCollectionViewCell.swift */; };
+		877674041FD1E5B200393A1B /* CyclingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877674031FD1E5B200393A1B /* CyclingCollectionViewController.swift */; };
+		87CABF951FD1C52700AD8782 /* UdicycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CABF941FD1C52700AD8782 /* UdicycleModel.swift */; };
+		87CABF971FD1C5B400AD8782 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CABF961FD1C5B400AD8782 /* Extensions.swift */; };
+		87DB2C321FD1F46C006EBCA5 /* NewCyclingActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB2C311FD1F46C006EBCA5 /* NewCyclingActivityViewController.swift */; };
 		87E26BBA1FD1BE1000C03EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E26BB91FD1BE1000C03EC0 /* AppDelegate.swift */; };
 		87E26BBF1FD1BE1000C03EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E26BBD1FD1BE1000C03EC0 /* Main.storyboard */; };
 		87E26BC11FD1BE1000C03EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E26BC01FD1BE1000C03EC0 /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		877673F91FD1CA2700393A1B /* CyclingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingTableViewCell.swift; sourceTree = "<group>"; };
+		877673FB1FD1CB9F00393A1B /* CyclingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingTableViewController.swift; sourceTree = "<group>"; };
+		877673FD1FD1CC1B00393A1B /* CyclingActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingActivity.swift; sourceTree = "<group>"; };
+		877673FF1FD1CD1200393A1B /* Randoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randoms.swift; sourceTree = "<group>"; };
+		877674011FD1E4CC00393A1B /* CyclingFavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingFavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
+		877674031FD1E5B200393A1B /* CyclingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingCollectionViewController.swift; sourceTree = "<group>"; };
+		87CABF941FD1C52700AD8782 /* UdicycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdicycleModel.swift; sourceTree = "<group>"; };
+		87CABF961FD1C5B400AD8782 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		87DB2C311FD1F46C006EBCA5 /* NewCyclingActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCyclingActivityViewController.swift; sourceTree = "<group>"; };
 		87E26BB61FD1BE1000C03EC0 /* Udicycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udicycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E26BB91FD1BE1000C03EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87E26BBE1FD1BE1000C03EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +62,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		87CABF911FD1C48700AD8782 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87CABF941FD1C52700AD8782 /* UdicycleModel.swift */,
+				877673FD1FD1CC1B00393A1B /* CyclingActivity.swift */,
+				877673FF1FD1CD1200393A1B /* Randoms.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87CABF921FD1C49900AD8782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87E26BBD1FD1BE1000C03EC0 /* Main.storyboard */,
+				87CABF961FD1C5B400AD8782 /* Extensions.swift */,
+				877673F91FD1CA2700393A1B /* CyclingTableViewCell.swift */,
+				877674011FD1E4CC00393A1B /* CyclingFavoriteCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87CABF931FD1C4A200AD8782 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				877673FB1FD1CB9F00393A1B /* CyclingTableViewController.swift */,
+				877674031FD1E5B200393A1B /* CyclingCollectionViewController.swift */,
+				87DB2C311FD1F46C006EBCA5 /* NewCyclingActivityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		87E26BAD1FD1BE1000C03EC0 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +112,9 @@
 		87E26BB81FD1BE1000C03EC0 /* Udicycle */ = {
 			isa = PBXGroup;
 			children = (
-				87E26BBD1FD1BE1000C03EC0 /* Main.storyboard */,
+				87CABF911FD1C48700AD8782 /* Model */,
+				87CABF931FD1C4A200AD8782 /* Controller */,
+				87CABF921FD1C49900AD8782 /* View */,
 				87CABF901FD1BFF000AD8782 /* Supporting Files */,
 			);
 			path = Udicycle;
@@ -141,7 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877673FC1FD1CB9F00393A1B /* CyclingTableViewController.swift in Sources */,
 				87E26BBA1FD1BE1000C03EC0 /* AppDelegate.swift in Sources */,
+				87DB2C321FD1F46C006EBCA5 /* NewCyclingActivityViewController.swift in Sources */,
+				877674041FD1E5B200393A1B /* CyclingCollectionViewController.swift in Sources */,
+				877674021FD1E4CC00393A1B /* CyclingFavoriteCollectionViewCell.swift in Sources */,
+				87CABF971FD1C5B400AD8782 /* Extensions.swift in Sources */,
+				877674001FD1CD1200393A1B /* Randoms.swift in Sources */,
+				877673FA1FD1CA2700393A1B /* CyclingTableViewCell.swift in Sources */,
+				877673FE1FD1CC1B00393A1B /* CyclingActivity.swift in Sources */,
+				87CABF951FD1C52700AD8782 /* UdicycleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
