@@ -148,7 +148,7 @@
         <scene sceneID="fKc-88-UIP">
             <objects>
                 <viewController id="TQd-os-d8o" customClass="NewCyclingActivityViewController" customModule="Udicycle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="can-mY-UrR">
+                    <view key="view" contentMode="scaleToFill" id="can-mY-UrR" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -252,6 +252,9 @@
                             <constraint firstItem="Pgi-li-XEB" firstAttribute="centerY" secondItem="nPE-s2-Lqe" secondAttribute="centerY" id="zuF-zF-gN9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jR7-Jv-Ssb"/>
+                        <connections>
+                            <action selector="closeKeyboard:" destination="TQd-os-d8o" eventType="touchDown" id="cOL-u6-2wv"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Novo" image="Plus" id="Xwh-wZ-svj"/>
                     <connections>
