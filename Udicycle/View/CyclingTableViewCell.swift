@@ -13,6 +13,7 @@ class CyclingTableViewCell: UITableViewCell {
     static let identifier = "cyclingCustomCell"
     
     @IBOutlet weak var cyclingImage: UIImageView!
+    @IBOutlet weak var backgoundImage: UIImageView!
     @IBOutlet weak var cyclingTitle: UILabel!
     @IBOutlet weak var cyclingDistance: UILabel!
     @IBOutlet weak var cyclingDate: UILabel!

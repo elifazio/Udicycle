@@ -10,6 +10,22 @@ import Foundation
 import UIKit
 
 extension UIImageView {
+    
+    public func downloadImageAsync(url: URL, anotherImageView: UIImageView) {
+        URLSession.shared.dataTask(with: url) { [weak self, weak anotherImageView] (data, response, error) in
+            guard error == nil else {
+                print(error ?? "Erro ao baixar a imagem")
+                return
+            }
+            DispatchQueue.main.async { [weak self, weak anotherImageView] in
+                let image = UIImage(data: data!)
+                self?.image = image
+                anotherImageView?.image = image
+            }
+            
+            }.resume()
+    }
+    
     public func downloadImageAsync(url: URL) {
         URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
             guard error == nil else {

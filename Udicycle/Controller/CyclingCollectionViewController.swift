@@ -10,6 +10,7 @@ import UIKit
 
 class CyclingCollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var backgroundImage: UIImageView!
     
     lazy var cyclingList: [CyclingActivity] = []
     
@@ -104,5 +105,10 @@ class CyclingCollectionViewController: UIViewController, UICollectionViewDataSou
      
      }
      */
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        self.backgroundImage.image = (cell as! CyclingFavoriteCollectionViewCell).cyclingImage.image
+    }
+    
     
 }

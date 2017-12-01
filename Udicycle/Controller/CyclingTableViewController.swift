@@ -59,7 +59,8 @@ class CyclingTableViewController: UIViewController, UITableViewDelegate, UITable
         
         cell.cyclingTitle.text = cyclingItem.title
         cell.cyclingDistance.text = cyclingItem.distanceFormatted
-        cell.cyclingImage.downloadImageAsync(url: URL(string: cyclingItem.photoUrl)!)
+        cell.cyclingImage.downloadImageAsync(url: URL(string: cyclingItem.photoUrl)!, anotherImageView: cell.backgoundImage)
+        //cell.backgoundImage.downloadImageAsync(url: URL(string: cyclingItem.photoUrl)!)
         
         let dateFormatterPrint = DateFormatter()
         dateFormatterPrint.dateStyle = .long
